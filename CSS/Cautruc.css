@@ -1,0 +1,212 @@
+body{
+    max-width: 1000px;
+    padding: auto;
+    margin : 0px auto;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+.vlab2{
+    margin: 0 auto;
+}
+.vlab2 > header{
+    background-size: 100% 100%;
+    height: 300px;
+}
+header img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.vlab2 > nav{
+    line-height: 25px;
+    background-color: #f7941d;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.vlab2 > nav ul{
+    display: flex;
+    margin: 0;
+}
+.vlab2 > nav ul  li{
+    list-style: none;
+}
+.vlab2> nav a{
+    font-variant: small-caps;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.vlab2>nav a:visited{
+    color: white;
+}
+.vlab2>nav a:hover{
+    color: white;
+    text-decoration: underline;
+    transition: all 0.25s ease-in;
+}
+.benphai{
+    float: right;
+ }
+.search{
+    background-color: white;
+    border: 1px solid gainsboro;
+    padding: 5.3px;
+    margin-left: -5px;
+    line-height: 8px;
+}
+.vlab2 > article{
+    min-height: 300px;
+    width: 600px;
+    background-color: white;
+    float: left;
+}
+.menu>ul>li{
+    position:relative;
+}
+.menu ul ul{
+    position:absolute;
+    display:none;
+    top: 20px;
+    right: -20%;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+} /*chỉnh thẳng hàng */
+.menu ul ul a{
+    line-height:30px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:10pt;
+    padding:0 10px;
+    display:block;
+}
+.menu>ul>li:hover>ul{
+    display:block;
+    transition: all 0.25s ease-in;
+}
+.menu ul ul a:hover{
+    background-color:orange;
+    color:white;
+}
+.menu ul ul a{
+    color: rgb(47, 114, 153);
+}
+.submenu a:visited{
+    color: rgb(47, 114, 153) !important;
+}
+footer{
+    background-color : rgb(5, 4, 75);
+    min-height: 200px;
+    display: flex;
+    color: white;
+}
+.vlab2 > footer{
+    float: none;
+    color: white;
+}
+.cot1{
+    width: 30%;
+}
+.cot2{
+    width: 50%;
+}
+.cot2-1, .cot2-2, .cot2-3{
+    width: 50%;
+}
+.cot3{
+    width: 50%;
+}
+.cot3-1, .cot3-2, .cot3-3{
+    width: 50%; 
+}
+.cotphu{
+    width: 10%;
+    color: orangered;
+}
+footer{
+    background-color : rgb(5, 4, 75);
+    min-height: 200px;
+    display: flex;
+}
+.vlab2 > footer{
+    float: none;
+    color: white;
+}
+.cot1{
+    width: 30%;
+}
+.cot2{
+    width: 50%;
+}
+.cot2-1, .cot2-2, .cot2-3{
+    width: 50%;
+}
+.cot3{
+    width: 50%;
+}
+.cot3-1, .cot3-2, .cot3-3{
+    width: 50%; 
+}
+.cotphu{
+    width: 10%;
+    color: orangered;
+}
+.menu>ul>li{
+    position:relative;
+}
+.menu ul ul{
+    position:absolute;
+    display:none;
+    top: 20px;
+    right: -20%;
+}
+.menu ul ul a{
+    display:block;
+}
+.menu>ul>li:hover>ul{
+    display:block;
+    transition: all 0.25s ease-in;
+}
+.menu ul ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+    
+}
+.menu ul ul a{
+    line-height:30px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:10pt;
+    padding:0 10px;
+}
+.menu ul ul a:hover{
+    background-color:orange;
+    color:white;
+}
+.menu ul ul a{
+    color: rgb(47, 114, 153);
+}
+.submenu a:visited{
+    color: rgb(47, 114, 153) !important;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
