@@ -1,1 +1,0 @@
-# thongtintruongFPT.io
